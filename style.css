@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.menus a{
+    text-decoration: none;
+    color:rgb(60, 209, 14);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size:medium;
+    margin-left: 1.25em;
+}
+header{
+    background-color: rgb(255, 255, 255);
+    line-height: 3.8125em;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    border-bottom: 0.2457em solid rgb(60, 209, 14);
+}
+.logo{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    display: flex;
+    justify-content:center;
+}
+.campoforms{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size:larger;
+    color: rgb(49, 168, 12);
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    margin-top: -5%;
+}
+.forms >* {
+    margin-bottom: 1em;
+}
+.botons{
+    display: flex;
+    justify-content:center;
+}
+.botões{
+    background-color:rgb(60, 209, 14);
+    color: white;
+    padding: 0.75em 3em;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+}
+.botão{
+    background-color:rgb(255, 255, 255);
+    color: rgb(60, 209, 14);
+    padding: 0.4375em 0.9375em;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 0.25em;
+    border: 0.1875em dashed rgb(84, 207, 2);
+
+}
+.botons .botão {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0.125em;
+    left:12.5em;
+}
+.botons .botões{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 4em;
+    right: 3em;
+    margin-right: 7%;
+}
+.campo{
+    width: 21.875em;
+    height: 1.375em;
+    border-radius: 0.3125em;
+    border: 0.125em solid rgb(84, 207, 2); 
+}
